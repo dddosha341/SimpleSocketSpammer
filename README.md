@@ -6,7 +6,7 @@ Just install and use it :)
 
 commands to run it:
 
-`python3 -i {ip} -p {port} -t {time}`
+`python3 sss.py -i {ip} -p {port} -t {time}`
 
 if u need miliseconds, use this type: 0.{miliseconds}
 
