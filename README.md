@@ -5,7 +5,8 @@ Starts connection by socket() and send to server useless messages
 Just install and use it :)
 
 commands to run it:
-python3 -i {ip} -p {port} -t {time}
+
+`python3 -i {ip} -p {port} -t {time}`
 
 if u need miliseconds, use this type: 0.{miliseconds}
 
