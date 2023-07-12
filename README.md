@@ -2,7 +2,7 @@
 Starts connection by socket() and send to server useless messages
 
 # U DON`T NEED INSTALL ANY REQUIREMENTS
-Just install and use it :)
+Just download .py and use it :)
 
 commands to run it:
 
