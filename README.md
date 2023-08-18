@@ -1,10 +1,10 @@
-#SimpleSocketSpammer
+# SimpleSocketSpammer
 Starts connection by socket() and send to server useless messages
 
-##U DON`T NEED INSTALL ANY REQUIREMENTS
+## U DON`T NEED INSTALL ANY REQUIREMENTS
 Just download .py and use it :)
 
-###PREPARE UR SYSTEM
+### PREPARE UR SYSTEM
 
 `apt update && apt upgrade -y`
 
