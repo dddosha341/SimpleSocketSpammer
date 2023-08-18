@@ -8,7 +8,11 @@ Just download .py and use it :)
 
 `apt update && apt upgrade -y`
 
-`apt install python3`
+`apt install python3`\
+
+`apt install git`
+
+`git clone https://github.com/dddosha341/SimpleSocketSpammer/`
 
 Command to run it:
 
