@@ -20,9 +20,8 @@ Command to run it:
 
 enjoy :D
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Default+Parameters)]
-
-Port: 80
+(https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Default+Parameters)
 
 IP: 127.0.0.1
 
+Port: 80
