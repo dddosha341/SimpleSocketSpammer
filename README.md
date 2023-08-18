@@ -8,7 +8,7 @@ Just download .py and use it :)
 
 `apt update && apt upgrade -y`
 
-`apt install python3`\
+`apt install python3`
 
 `apt install git`
 
@@ -20,7 +20,7 @@ Command to run it:
 
 enjoy :D
 
-(https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Default+Parameters)
+### DEFAULT PARAMETERS
 
 IP: 127.0.0.1
 
