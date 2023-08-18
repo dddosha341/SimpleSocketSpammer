@@ -5,32 +5,34 @@ import time
 import random
 
 clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-def createParser ():
+def CreateParser ():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i','--ip', default='127.0.0.1')
     parser.add_argument('-p','--port', default=str(80))
-    parser.add_argument('-t','--time', default=str(0))
     return parser
-def generateRandomWord() -> str:
+def GenerateRandomWord() -> str:
     data = ''
     for i in range(0,20):
         int = round(10,90)
         data+=chr(int)
     return data
+def RandomTime() -> float:
+    millisecondsRandom = round(100,200)
+    return float(millisecondsRandom/1000)
 if __name__ == '__main__':
-    parser = createParser()
+    parser = CreateParser()
     namespace = parser.parse_args(sys.argv[1:])
     port = int(namespace.port)
     clientSocket.connect((namespace.ip,(int(namespace.port))))
-    timeSleep = float(namespace.time)
     print('GOOD CONNECT')
     while True:
-        data = generateRandomWord()
+        data = GenerateRandomWord()
+        timeSleep = RandomTime()
         try:
              clientSocket.send(data.encode())
              print('SENDED')
         except:
-            print('ERROR!!!!!!!!!!!!!ERROR!!!!!!!!!!!!!')
+            print('NOT SENDED! ERROR!')
             continue
         time.sleep(timeSleep)
     
