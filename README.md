@@ -1,14 +1,18 @@
-# SimpleSocketSpammer
+#SimpleSocketSpammer
 Starts connection by socket() and send to server useless messages
 
-# U DON`T NEED INSTALL ANY REQUIREMENTS
+##U DON`T NEED INSTALL ANY REQUIREMENTS
 Just download .py and use it :)
 
-commands to run it:
+###PREPARE UR SYSTEM
 
-`python3 sss.py -i {ip} -p {port} -t {time}`
+`apt update && apt upgrade -y`
 
-if u need miliseconds, use this type: 0.{miliseconds}
+`apt install python3`
+
+Command to run it:
+
+`python3 sss.py -i {ip} -p {port}`
 
 enjoy :D
 
@@ -18,4 +22,3 @@ Port: 80
 
 IP: 127.0.0.1
 
-TimeSleep: 0
